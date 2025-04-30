@@ -9,9 +9,9 @@ hora = ctrl.Antecedent(np.arange(0, 24, 1), 'hora')
 
 resfriamento = ctrl.Consequent(np.arange(0, 101, 1), 'resfriamento')
 
-temperatura['frio'] = fuzz.trimf(temperatura.universe, [0, 0, 18])
-temperatura['agradavel'] = fuzz.trimf(temperatura.universe, [16, 22, 28])
-temperatura['quente'] = fuzz.trimf(temperatura.universe, [26, 40, 40])
+temperatura['frio'] = fuzz.trapmf(temperatura.universe, [0, 0, 14, 18])
+temperatura['agradavel'] = fuzz.trapmf(temperatura.universe, [16, 20, 24, 28])
+temperatura['quente'] = fuzz.trapmf(temperatura.universe, [26, 30, 40, 40])
 
 pessoas['poucas'] = fuzz.trimf(pessoas.universe, [0, 0, 6])
 pessoas['media'] = fuzz.trimf(pessoas.universe, [4, 10, 16])
