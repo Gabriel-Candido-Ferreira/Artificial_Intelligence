@@ -1,5 +1,4 @@
 
-```markdown
 # ❄️ Sistema Fuzzy de Controle de Ar-Condicionado
 
 Este projeto é uma simulação de um sistema fuzzy desenvolvido em Python com a biblioteca `scikit-fuzzy`. Ele tem como objetivo controlar o nível de resfriamento de um ar-condicionado com base em três variáveis de entrada:
