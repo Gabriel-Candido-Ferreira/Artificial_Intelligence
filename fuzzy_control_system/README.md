@@ -1,6 +1,4 @@
 
----
-
 ```markdown
 # ❄️ Sistema Fuzzy de Controle de Ar-Condicionado
 
